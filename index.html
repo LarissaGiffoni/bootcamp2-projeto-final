@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mural de Avisos com Clima</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mural de Avisos do Curso</h1>
+        <div id="clima-box">
+            <span>Carregando clima...</span>
+        </div>
+    </header>
+
+    <main>
+        <section id="formulario-aviso">
+            <h2>Postar novo aviso</h2>
+            <input type="text" id="titulo-aviso" placeholder="Título do aviso" required>
+            <textarea id="texto-aviso" placeholder="Escreva o aviso aqui..." required></textarea>
+            <button id="btn-postar">Postar Aviso</button>
+        </section>
+
+        <section id="lista-avisos">
+            <h2>Avisos Recentes</h2>
+            <div id="avisos-container">
+                <!-- Os avisos vão aparecer aqui -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
