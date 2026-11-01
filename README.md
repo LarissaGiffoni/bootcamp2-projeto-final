@@ -19,3 +19,6 @@ Uma aplicação web colaborativa para postar avisos do curso. O sistema exibirá
 - **Testes:** Jest
 - **CI/CD:** GitHub Actions
 - **Deploy:** Docker
+
+
+Testando se a main está protegida.
