@@ -24,9 +24,10 @@ cd bootcamp2-projeto-final
 npm install
 npm start
 # Acesse http://localhost:3000
-### Via Docker (Docker Hub)
-Link da imagem: [pedrolacerdaalencar/mural-avisos](https://hub.docker.com/r/pedrolacerdaalencar/mural-avisos)
-```bash
+Via Docker (Docker Hub)
+Link da imagem: pedrolacerdaalencar/mural-avisos
+
+bash
 docker run -p 3000:3000 pedrolacerdaalencar/mural-avisos
 # Acesse http://localhost:3000
 4. Testes
@@ -39,22 +40,7 @@ Proteção da Main e CI: A branch main está protegida exigindo 1 aprovação e 
 
 Print da PR bloqueada pelo CI:
 
-<img width="1802" height="1021" alt="Captura de tela 2026-11-01 191842" src="https://github.com/user-attachments/assets/ab19fa68-e182-47e2-ba6d-e06883d9b5ca" />
+<img width="1802" height="1021" alt="Captura de tela 2026-11-01 191842" src="https://github.com/user-attachments/assets/7f317ff5-7508-4342-a849-4612a3b01a0c" />
 
 
-
-### 2. Adicione o print
-Agora que a parte de evidências está na tela:
-1. Clique com o mouse logo abaixo de `**Print da PR bloqueada pelo CI:**`.
-<img width="1802" height="1021" alt="Captura de tela 2026-11-01 191842" src="https://github.com/user-attachments/assets/b96d0315-4e50-49e1-b1fb-e31ecdb90cd9" />
-
-2. Abra a pasta do seu computador onde está o print.
-3. **Arraste a imagem** e **solte** dentro da caixa de texto do GitHub.
-4. O GitHub vai gerar um link automático para a imagem.
-
-### 3. Conserte os links das PRs
-Ainda na tela de edição, lá no comecinho (linha 9 e 10), troque os textos `COLE_O_LINK_DA_PR_1_AQUI` e `COLE_O_LINK_DA_PR_3_AQUI` pelos links reais. 
-*Exemplo:* `[PR #1](https://github.com/LarissaGiffoni/bootcamp2-projeto-final/pull/1)`
-
-### 4. Salve
-Clique no botão verde **"Commit changes..."** no topo da página.
+Conflito de Merge: Não houve conflito de merge durante o desenvolvimento.
