@@ -44,4 +44,4 @@ Para rodar os testes automatizados localmente:
 <img width="1802" height="1021" alt="Captura de tela 2026-11-01 191842" src="https://github.com/user-attachments/assets/451b01a8-938a-4040-96c1-5b8d4723461f" />
 
 
-- **Conflito de Merge:** Não houve conflito de merge durante o desenvolvimento.![Uploading Captura de tela 2026-11-01 191842.png…]()
+- **Conflito de Merge:** Não houve conflito de merge durante o desenvolvimento.
