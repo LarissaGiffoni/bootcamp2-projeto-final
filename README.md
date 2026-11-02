@@ -18,29 +18,30 @@ Uma aplicação web colaborativa para postar avisos do curso. O sistema exibe ta
 ## 3. Instruções de Execução
 
 ### Execução local
-```bash
-git clone git@github.com:LarissaGiffoni/bootcamp2-projeto-final.git
-cd bootcamp2-projeto-final
-npm install
-npm start
-# Acesse http://localhost:3000
-Via Docker (Docker Hub)
-Link da imagem: pedrolacerdaalencar/mural-avisos
 
-bash
-docker run -p 3000:3000 pedrolacerdaalencar/mural-avisos
-# Acesse http://localhost:3000
-4. Testes
+    git clone git@github.com:LarissaGiffoni/bootcamp2-projeto-final.git
+    cd bootcamp2-projeto-final
+    npm install
+    npm start
+    # Acesse http://localhost:3000
+
+### Via Docker (Docker Hub)
+Link da imagem: [pedrolacerdaalencar/mural-avisos](https://hub.docker.com/r/pedrolacerdaalencar/mural-avisos)
+
+    docker run -p 3000:3000 pedrolacerdaalencar/mural-avisos
+    # Acesse http://localhost:3000
+
+## 4. Testes
+
 Para rodar os testes automatizados localmente:
 
-bash
-npm test
-5. Evidências
-Proteção da Main e CI: A branch main está protegida exigindo 1 aprovação e o check do GitHub Actions verde.
+    npm test
 
-Print da PR bloqueada pelo CI:
+## 5. Evidências
+- **Proteção da Main e CI:** A branch `main` está protegida exigindo 1 aprovação e o check do GitHub Actions verde.
+- **Print da PR bloqueada pelo CI:**
 
-<img width="1802" height="1021" alt="Captura de tela 2026-11-01 191842" src="https://github.com/user-attachments/assets/7f317ff5-7508-4342-a849-4612a3b01a0c" />
+<img width="1802" height="1021" alt="Captura de tela 2026-11-01 191842" src="https://github.com/user-attachments/assets/451b01a8-938a-4040-96c1-5b8d4723461f" />
 
 
-Conflito de Merge: Não houve conflito de merge durante o desenvolvimento.
+- **Conflito de Merge:** Não houve conflito de merge durante o desenvolvimento.![Uploading Captura de tela 2026-11-01 191842.png…]()
