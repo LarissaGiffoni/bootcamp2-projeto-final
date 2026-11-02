@@ -39,8 +39,9 @@ Proteção da Main e CI: A branch main está protegida exigindo 1 aprovação e 
 
 Print da PR bloqueada pelo CI:
 
-text
-*(Deixei um espaço em branco embaixo de "Print da PR bloqueada pelo CI:" para você colocar a imagem).*
+<img width="1802" height="1021" alt="Captura de tela 2026-11-01 191842" src="https://github.com/user-attachments/assets/ab19fa68-e182-47e2-ba6d-e06883d9b5ca" />
+
+
 
 ### 2. Adicione o print
 Agora que a parte de evidências está na tela:
